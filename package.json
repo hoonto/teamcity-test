@@ -1,0 +1,19 @@
+{
+  "name": "teamcity-test",
+  "version": "0.0.0",
+  "description": "teamcity-test =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkambler/teamcity-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkambler/teamcity-test/issues"
+  },
+  "homepage": "https://github.com/tkambler/teamcity-test"
+}
