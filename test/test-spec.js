@@ -9,7 +9,7 @@ describe('Test',function() {
     });
 
     describe('when run',function() {
-        it('should be ok',function() {
+        it('should be fine',function() {
             sut.should.be.true;
         })
     })
