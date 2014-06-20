@@ -4,16 +4,28 @@
   "description": "teamcity-test =============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*-spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tkambler/teamcity-test"
+    "url": "https://github.com/hoonto/teamcity-test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "mocha": "*",
+    "chai": "*",
+    "grunt-mocha-test": "~0.11.0"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tkambler/teamcity-test/issues"
+    "url": "https://github.com/hoonto/teamcity-test/issues"
   },
-  "homepage": "https://github.com/tkambler/teamcity-test"
+  "homepage": "https://github.com/hoonto/teamcity-test",
+  "teamcity": {
+    "directories": {
+      "/": "public"
+    }
+  }
 }
