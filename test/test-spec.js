@@ -5,7 +5,7 @@ describe('Test',function() {
     var sut;
 
     beforeEach(function() {
-        sut = false;
+        sut = true;
     });
 
     describe('when run',function() {
