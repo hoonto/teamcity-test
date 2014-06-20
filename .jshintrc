@@ -1,0 +1,23 @@
+{
+
+    "globals": {
+        "jQuery": true,
+        "amplify": true,
+        "_": true,
+        "$": true,
+        "ActiveXObject": true,
+        "ko": true
+    },
+    "curly": false,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "boss": true,
+    "eqnull": true,
+    "browser": true,
+    "jquery": true
+}
